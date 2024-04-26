@@ -1,7 +1,7 @@
 # 1 Aspectos Gerais
 Um banco de dados armazenado em disco possui uma relação que salva as compras realizadas por um consumidor. A Figura 1 apresenta o esquema da relação Compras. Normalmente, a carga de trabalho que envolve essa rela ̧c ̃ao realiza uma consulta considerando o ano no qual a compra foi realizada a fim de se calcular o total de vendas do ano. Assim, o trabalho consiste em implementar um  ́ındice para essa relação, sendo que a chave de busca ́e o atributo ano, que é um número inteiro.
 
-Para esse trabalho, deverão ser utilizados os dados presentes na instância da relação Compras que est ́a no arquivo compras.csv que ser ́a publicado junto a esse documento. Cada equipe de, no máximo, dois alunos implementar ́a um  ́ındice hash extensível, bastante utilizado e visto em aula. O  ́ındice deve considerar que a relação Compras está armazenada em um arquivo do disco no qual cada linha (registro) desse arquivo ́e uma página da tabela no banco de dados.
+Para esse trabalho, deverão ser utilizados os dados presentes na instância da relação Compras que está no arquivo compras.csv que ser ́a publicado junto a esse documento. O ́ındice deve considerar que a relação Compras está armazenada em um arquivo do disco no qual cada linha (registro) desse arquivo ́e uma página da tabela no banco de dados.
 
 Os alunos devem implementar as operações de busca (por igualdade), inserção e remoção de entradas de dados.
 
